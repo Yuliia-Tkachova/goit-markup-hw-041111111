@@ -249,6 +249,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-xt-cl);
+  padding-bottom: 16px;
 
 }
 .team-wrap {
@@ -322,7 +323,7 @@ p {
 }
 .portfolio-wrap {
   border: 1px solid #EEEEEE;
-  bprder-top: none;
+  border-top: none;
   padding: 20px 24px;
 }
 
@@ -385,4 +386,21 @@ p {
 }
 .portf-img {
   display: block;
+}
+/* icons */
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+ 
 }
