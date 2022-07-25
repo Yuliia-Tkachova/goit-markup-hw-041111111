@@ -404,3 +404,13 @@ p {
   border-radius: 50%;
  
 }
+.team-icon {
+  fill: #AFB1B8;
+ 
+}
+.icon-link:hover {
+  background-color: #2196f3;
+}
+.icon-link:hover .team-icon {
+  fill: #FFFFFF;
+}
