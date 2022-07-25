@@ -219,7 +219,8 @@ p {
 /*about and team sections */
 
 .about-title,
-.team-title {
+.team-title,
+.customers-title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -401,16 +402,41 @@ p {
   width: 44px;
   height: 44px;
   background-color: #FFFFFF;
-  border-radius: 50%;
- 
+  border-radius: 50%; 
 }
 .team-icon {
-  fill: #AFB1B8;
- 
+  fill: #AFB1B8; 
 }
 .icon-link:hover {
   background-color: #2196f3;
 }
 .icon-link:hover .team-icon {
   fill: #FFFFFF;
+}
+/*customers-section*/
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  background-color: #FFFFFF;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.customers-icon {
+  fill: #AFB1B8;
+}
+.customers-link:hover {
+  background-color: #E5E5E5;
+  border-color: #2196F3;
+}
+.customers-link:hover .customers-icon {
+  fill: #2196F3;
 }
