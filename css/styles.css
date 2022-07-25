@@ -459,3 +459,16 @@ p {
 .features-svg-item {
   padding-bottom: 30px;
 }
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient(to right)
+  url('../images/overlay.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+
+}
